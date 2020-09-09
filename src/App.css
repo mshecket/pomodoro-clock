@@ -1,10 +1,19 @@
 #clock {
   text-align: center;
+  padding-top: 43vmin;
+  padding-bottom: 20vmin;
+  font-size: 5vmin;
+  line-height: 1.2;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
   background-image: url("pomodoro.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  padding-top: 45vh;
-  padding-bottom: 20vh;
-  font-size: 4vh;
+  height: 100vh;
 }
